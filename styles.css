@@ -124,57 +124,58 @@ img {
     font-weight: 500;
 }
 
+/* CSS de Pagina de Horarios */
 /* Contenedor de horarios */
-.schedule-container {
+.horarios {
     text-align: center;
 }
 
-.schedule-container h1 {
+.horarios h1 {
     font-size: 2rem;
     color: #2c3e50;
     font-weight: bold;
 }
 
 /* Tabla */
-.schedule-table {
+.tabla-horarios {
     text-align: center;
     display: inline-block;
     border-collapse: collapse;
     background-color: #fff;
 }
 
-.schedule-table thead {
+.tabla-horarios thead {
     background-color: #3498db;
     color: white;
 }
 
-.schedule-table th {
+.tabla-horarios th {
     font-size: 1.1rem;
     font-weight: bold;
     color: white;
 }
 
-.schedule-table th,
-.schedule-table td {
+.tabla-horarios th,
+.tabla-horarios td {
     font-size: 1rem;
     color: #555;
     border: 2px solid #bdc3c7;
 }
 
-.schedule-table tbody tr:nth-child(odd) {
+.tabla-horarios tbody tr:nth-child(odd) {
     background-color: #ecf0f1;
 }
 
-.schedule-table tbody tr:nth-child(even) {
+.tabla-horarios tbody tr:nth-child(even) {
     background-color: #fff;
 }
 
-.schedule-table tbody tr:hover {
+.tabla-horarios tbody tr:hover {
     background-color: #d5dbdb;
 }
 
 /* Enlaces */
-.schedule-container a {
+.horarios a {
     color: #3498db;
     text-decoration: none;
     font-size: 1rem;
