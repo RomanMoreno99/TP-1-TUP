@@ -3,11 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horario</title>
+    <title>Horarios</title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-    <a href="index.html">Inicio</a>
-    <h1>Horario</h1>
-    
+    <header>
+        <h1>Mi Primer Sitio Web</h1>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="recetas.html">Recetas</a></li>
+            <li><a href="horario.html">Horario</a></li>
+        </ul>
+    </header>
+
+    <div class="schedule-container">
+        <h1>Horarios</h1>
+
+        <table class="schedule-table">
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Mañana (9:00-12:00)</th>
+                    <th>Tarde (14:00-18:00)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>Atención al cliente</td>
+                    <td>Preparación de recetas</td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td>Compras de ingredientes</td>
+                    <td>Cocina</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td colspan="2">Día de descanso</td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td>Elaboración de menú</td>
+                    <td>Servicio</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td colspan="2">Evento especial - 9:00 a 18:00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p><a href="index.html">Volver al Inicio</a></p>
+    </div>
 </body>
 </html>

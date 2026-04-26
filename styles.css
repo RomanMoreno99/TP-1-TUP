@@ -1,4 +1,4 @@
-/* Tipografía y colores base */
+/* Inicio */
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -58,6 +58,7 @@ body a {
     font-weight: 500;
 }
 
+/* CSS de Pagina de Recetas */
 
 /* Imágenes */
 img {
@@ -66,64 +67,117 @@ img {
 }
 
 /* Contenedor de recetas */
-.recipe-container {
+.recetas {
     text-align: center;
 }
 
-.recipe-container h1 {
+.recetas h1 {
     font-size: 2rem;
     color: #2c3e50;
     font-weight: bold;
 }
 
 /* Receta */
-.recipe {
+.PC {
     text-align: left;
     background-color: #fff;
     display: inline-block;
 }
 
-.recipe h2 {
+.PC h2 {
     font-size: 1.8rem;
     color: #e74c3c;
     font-weight: bold;
 }
 
-.recipe h3 {
+.PC h3 {
     font-size: 1.3rem;
     color: #2c3e50;
     font-weight: bold;
 }
 
 /* Listas */
-.recipe ul {
+.PC ul {
     list-style-type: disc;
     font-size: 1.1rem;
     color: #555;
     line-height: 1.8;
 }
 
-.recipe ol {
+.PC ol {
     list-style-type: decimal;
     font-size: 1.1rem;
     color: #555;
     line-height: 1.8;
 }
 
-.recipe ul li,
-.recipe ol li {
+.PC ul li,
+.PC ol li {
     color: #555;
 }
 
 /* Enlaces */
-.recipe a {
+.PC a {
     color: #3498db;
     text-decoration: none;
     font-size: 1rem;
     font-weight: 500;
 }
 
-.recipe a:hover {
-    color: #e74c3c;
-    text-decoration: underline;
+/* Contenedor de horarios */
+.schedule-container {
+    text-align: center;
 }
+
+.schedule-container h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+/* Tabla */
+.schedule-table {
+    text-align: center;
+    display: inline-block;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.schedule-table thead {
+    background-color: #3498db;
+    color: white;
+}
+
+.schedule-table th {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.schedule-table th,
+.schedule-table td {
+    font-size: 1rem;
+    color: #555;
+    border: 2px solid #bdc3c7;
+}
+
+.schedule-table tbody tr:nth-child(odd) {
+    background-color: #ecf0f1;
+}
+
+.schedule-table tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.schedule-table tbody tr:hover {
+    background-color: #d5dbdb;
+}
+
+/* Enlaces */
+.schedule-container a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
